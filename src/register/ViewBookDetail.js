@@ -22,6 +22,8 @@ class ViewBookDetail extends Component {
     super(props);
 
     const { dataBookDetail } = this.props;
+    console.log('dataBookDetail');
+    console.log(dataBookDetail);
 
     // もしかしたらJson-serverにデータがないときに、empty arrayだとTrueと判断されるので、
     // よろしく直すべし。
@@ -32,6 +34,9 @@ class ViewBookDetail extends Component {
       });
 
       this.state = targetBook;
+      console.log('targetBook');
+      console.log(targetBook);
+
     } else {
       this.state = {
         book_num: null,
@@ -62,6 +67,8 @@ class ViewBookDetail extends Component {
 
   render() {
     const array = Object.keys(this.state);
+    console.log('array=Object.keys');
+    console.log(array);
 
     return (
       <View style={styles.container}>

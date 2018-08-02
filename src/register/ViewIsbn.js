@@ -23,31 +23,31 @@ class ViewIsbn extends Component {
     super(props);
 
     this.state = {
-      isbn: '9784797392579',
+      isbn13: '11',
     };
   }
 
   handleSearch = async (event) => {
     event.preventDefault();
 
-    const { isbn } = this.state;
-    const dataBookDetail = await getBookDetail(isbn);
+    const { isbn13 } = this.state;
+    const dataBookDetail = await getBookDetail(isbn13);
 
     const { changeMode } = this.props;
     changeMode('modeViewBookDetail', dataBookDetail);
   }
 
   render() {
-    const { isbn } = this.state;
+    const { isbn13 } = this.state;
 
     return (
       <View style={styles.container}>
         <Text>
-          ISBN:
+          ISBN13:
         </Text>
         <TextInput
-          value={isbn}
-          onChangeText={(value) => { this.setState({ isbn: value }); }}
+          value={isbn13}
+          onChangeText={(value) => { this.setState({ isbn13: value }); }}
         />
         <Button
           title="本の詳細を検索"

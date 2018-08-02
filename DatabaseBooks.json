@@ -5,7 +5,7 @@
       "book_id": null,
       "book_name": "深層学習",
       "isbn10": null,
-      "isbn13": null,
+      "isbn13": 11,
       "publishers": "講談社",
       "authors": [
         "岡谷貴之"
@@ -22,7 +22,7 @@
       "book_id": null,
       "book_name": "Amazon Web Services パターン別構築・運用ガイド 改訂第2版 (Informatics&IDEA)",
       "isbn10": null,
-      "isbn13": null,
+      "isbn13": 22,
       "publishers": "SBクリエイティブ",
       "authors": [
         "NRIネットコム株式会社 (著), 佐々木 拓郎  (著), 林 晋一郎 (著), 小西 秀和 (著), 佐藤 瞬  (著)"
@@ -39,7 +39,7 @@
       "book_id": null,
       "book_name": "React入門 React・Reduxの導入からサーバサイドレンダリングによるUXの向上まで(NEXT ONE)",
       "isbn10": null,
-      "isbn13": null,
+      "isbn13": 33,
       "publishers": "翔泳社",
       "authors": [
         "穴井宏幸  (著), 柴田和祈 (著), 石井直矢 (著), 三宮肇 (著)"

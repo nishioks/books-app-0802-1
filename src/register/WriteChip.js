@@ -22,26 +22,29 @@ class WriteChip extends Component {
     super(proprs);
 
     const { dataBookDetail } = this.props;
+    console.warn(this.props);
     const { book_id } = dataBookDetail;
 
     const test_book_id = '9780000000000';
 
-    if (book_id) {
-      this.state = {
-        book_id,
-      };  
-    } else {
-      this.state = {
-        book_id: 'test number',
-      };
-    }
+    // if (book_id) {
+    //   this.state = {
+    //     book_id,
+    //   };  
+    // } else {
+    //   this.state = {
+    //     book_id: 'test number',
+    //   };
+    // }
   }
 
   handleWrite = async (event) => {
     event.preventDefault();
     // TODO: NFC
     // const result = await postIdNfc{book_id);
-    alert('book_idをICチップに書込みました。');
+
+    const { changeMode } = this.props;
+    changeMode('modeCompleteMessage', this.state);
 
   }
 
@@ -49,7 +52,6 @@ class WriteChip extends Component {
     return(
       <View style={styles.container}>
         <Text>
-          {/* {test_book_id} */}
           {book_id}
         </Text>
         <Button

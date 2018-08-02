@@ -29,6 +29,13 @@ class App extends Component {
     if (mode ==='modeWriteChip') {
       return <WriteChip changeMode={this.changeMode} dataBookDetail={data} />;
     }
+    if (mode ==='modeCompleteMessage') {
+      return (
+        <Text>
+          ICチップへの書き込みが完了しました。
+        </Text>
+      );
+    }
   }
 }
 
