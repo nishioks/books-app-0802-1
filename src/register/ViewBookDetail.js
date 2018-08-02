@@ -6,7 +6,7 @@ import {
   Button,
   View,
 } from 'react-native';
-import postRegisterBook from './postRegisterBook';
+// import postRegisterBook from './postRegisterBook';
 
 const styles = StyleSheet.create({
   container: {
@@ -34,15 +34,18 @@ class ViewBookDetail extends Component {
       this.state = targetBook;
     } else {
       this.state = {
-        id: null,
-        book_id: '',
         book_num: null,
-        isbn: null,
+        book_id: null,
         book_name: '',
-        authors: '',
+        isbn10: null,
+        isbn13: null,
         publishers: '',
+        authors: '',
+        format: '',
         publication_date: null,
         lost_flag: false,
+        created_at: '',
+        updated_at: '',
       };
     }
   }
@@ -50,10 +53,10 @@ class ViewBookDetail extends Component {
   handleRegister = async (event) => {
     event.preventDefault();
 
-    const postRegisterBookResult = await postRegisterBook(this.state);
+    // const postRegisterBookResult = await postRegisterBook(this.state);
 
     const { changeMode } = this.props;
-    changeMode('modeWriteIcChp', this.state);
+    changeMode('modeWriteChip', this.state);
 
   }
 

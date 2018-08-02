@@ -1,35 +1,55 @@
 {
   "books": [
     {
-      "id": 1,
-      "book_id": "e98fc736-d081-4c26-8d33-0c5939947358",
-      "book_num": "0000000000001",
-      "isbn": 9784797392579,
+      "book_num": null,
+      "book_id": null,
+      "book_name": "深層学習",
+      "isbn10": null,
+      "isbn13": null,
+      "publishers": "講談社",
+      "authors": [
+        "岡谷貴之"
+      ],
+      "format": "BOOK",
+      "publication_date": "2015/04/07",
+      "memo": "string",
+      "lost_flag": true,
+      "created_at": "2018-08-02T07:38:44.090Z",
+      "updated_at": "2018-08-02T07:38:44.090Z"
+    },
+    {
+      "book_num": null,
+      "book_id": null,
       "book_name": "Amazon Web Services パターン別構築・運用ガイド 改訂第2版 (Informatics&IDEA)",
-      "authors": "NRIネットコム株式会社 (著), 佐々木 拓郎  (著), 林 晋一郎 (著), 小西 秀和 (著), 佐藤 瞬  (著)",
+      "isbn10": null,
+      "isbn13": null,
       "publishers": "SBクリエイティブ",
-      "publication_date": "2018/3/23",
-      "lost_flag": false
+      "authors": [
+        "NRIネットコム株式会社 (著), 佐々木 拓郎  (著), 林 晋一郎 (著), 小西 秀和 (著), 佐藤 瞬  (著)"
+      ],
+      "format": "BOOK",
+      "publication_date": "2015/04/07",
+      "memo": "string",
+      "lost_flag": true,
+      "created_at": "2018-08-02T07:38:44.090Z",
+      "updated_at": "2018-08-02T07:38:44.090Z"
     },
     {
-      "id": 2,
-      "book_id": "afe7b394-6e57-46cf-ba51-e3674287e0ff",
-      "book_num": "0000000000002",
-      "isbn": 9784798153353,
+      "book_num": null,
+      "book_id": null,
       "book_name": "React入門 React・Reduxの導入からサーバサイドレンダリングによるUXの向上まで(NEXT ONE)",
-      "authors": "穴井宏幸  (著), 柴田和祈 (著), 石井直矢 (著), 三宮肇 (著)",
+      "isbn10": null,
+      "isbn13": null,
       "publishers": "翔泳社",
-      "publication_date": "2018/2/19",
-      "lost_flag": false
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
+      "authors": [
+        "穴井宏幸  (著), 柴田和祈 (著), 石井直矢 (著), 三宮肇 (著)"
+      ],
+      "format": "BOOK",
+      "publication_date": "2015/04/07",
+      "memo": "string",
+      "lost_flag": true,
+      "created_at": "2018-08-02T07:38:44.090Z",
+      "updated_at": "2018-08-02T07:38:44.090Z"
     }
   ]
 }

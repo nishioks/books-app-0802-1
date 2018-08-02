@@ -26,7 +26,9 @@ class App extends Component {
     if (mode === 'modeViewBookDetail') {
       return <ViewBookDetail changeMode={this.changeMode} dataBookDetail={data} />;
     }
-    return <WriteChip changeMode={this.changeMode} dataBookDetail={data} />;
+    if (mode ==='modeWriteChip') {
+      return <WriteChip changeMode={this.changeMode} dataBookDetail={data} />;
+    }
   }
 }
 
